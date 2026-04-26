@@ -1,0 +1,174 @@
+.title{
+    text-align: center;
+    font-family: "poppins";
+    margin-top:20px;
+}
+.title h1{
+    margin-bottom:20px;
+    font-family: "gloss";
+}
+.title h1:after{
+     border-bottom: 1px solid grey;
+    content: '';
+    display: block;
+    margin-left: 38%;
+    margin-top: 0;
+    width: 25%;
+}
+
+
+.fdtm{
+    font-family: "gloss";
+    display:flex;
+    align-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+.fdtm hr {
+    height:1px;
+    border:none;
+    background:black;
+    color:black;
+}
+h3{
+    margin:0;
+    margin-left:20px;
+    margin-right:20px;
+}
+.profil{
+    margin-top:80px;
+    font-family:"poppins";
+}
+
+.profj hr,.profca hr{
+    margin-top:0;
+}
+.profil hr{
+    height:1px;
+    width:20px;
+    border:none;
+    background:black;
+    color:black;
+}
+.profil img{
+    border-radius:50%;
+
+}
+.profj,.profca{
+    word-wrap: break-word;
+    text-align: center;
+}
+.profj h1,.profca h1{
+    font-family: "gloss";
+}
+
+
+
+.reseaux{
+    display: flex;
+}
+
+p:after{
+    
+    border-bottom: 1px solid grey;
+    content: '';
+    display: block;
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 20%;
+}
+.news h1{
+    font-family:"gloss";
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.news h1:after {
+    border-bottom: 1px solid grey;
+    content: '';
+    display: block;
+    margin-left: 45%;
+    margin-top: 5%;
+    width: 10%;
+}
+.hrf{
+    margin-left:50%;
+    height:100px;
+    width:1px;
+    color:black;
+    background:black;
+    border:none;
+}
+.news{
+    word-wrap: break-word;
+    text-align: center;
+    font-family:  Poppins;
+
+}
+input{
+    margin:0;
+    padding:10px;
+    font-family: League Spartan;
+    text-transform: uppercase;
+    font-size:0.8em;
+    background:rgba(208, 202, 202, 0.73);
+    border:none;
+    letter-spacing: 0.2em;
+}
+.send{
+    padding: 0;
+    border:none;
+    color:#a59d9d;
+    font-weight: 100;
+    text-align: center;
+    font-size:1.8em;
+    background:rgba(42, 41, 41, 0.73);
+}
+.boxmail{
+    margin-top:30px;
+    align-content: center;
+    align-items: center;
+}
+.titreres{
+    visibility: hidden;
+}
+
+/*       MOBILE     */
+@media screen and (max-width: 768px) { 
+ 
+    .profil{
+        margin-top:20px;
+    }
+    .fdtm hr{
+       padding:0;
+    }
+    .fdtm h3{
+        font-size:1.2em;
+    }
+    .profj h1,.profca h1{
+        font-size:1em;
+    }
+    .profj p,.profca p{
+        margin:0;
+        font-size:0.8em;
+    }
+  
+}
+/*       TABLETTE   */
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+      .fdtm hr{
+       padding:0;
+    }
+    .fdtm h3{
+        font-size:1.2em;
+    }
+}
+/*         COMPUTER STD      */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/*        COMPUTER LRG       */
+@media (min-width: 1200px) {
+
+}

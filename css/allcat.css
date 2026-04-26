@@ -1,0 +1,236 @@
+.a,.b,.ca,.d,.c{
+    margin:0px;
+    padding:5px;
+    background:rgba(255, 249, 249, 0.4);
+}
+.b img{
+    height:250px;
+}
+.d{
+    margin-bottom:2px;
+}
+
+.allcat:after{
+    border-bottom: 2px solid black;
+    content: '';
+    display: block;
+    margin-left: 20%;
+    margin-top: 95%;
+    width: 60%;
+}
+.allcat{
+    margin-bottom:40px;
+}
+
+.a .but{
+    padding:25px 0 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+    position:absolute;
+    font-size:2.6em;
+    left:0;
+    top:83%;
+    color:white;
+   background:rgba(255, 249, 249, 0.4);
+    border:6px solid white;
+    font-family: "Quick_bold";
+}
+
+.c .but,.ca .but{
+    padding:25px 0 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+    position:absolute;
+    font-size:1.8em;
+    left:0;
+    top:38%;
+    color:white;
+   background:rgba(255, 249, 249, 0.4);
+    border:4px solid white;
+    font-family: "Quick_bold";
+}
+.c .but:hover,.ca .but:hover,.b .but:hover{
+    border:4px solid rgba(255, 255, 255, 0.0);
+}
+.d .but{
+    padding:25px 0 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+    position:absolute;
+    font-size:2.2em;
+    left:0;
+    top:38%;
+    color:white;
+    background:rgba(255, 249, 249, 0.4);
+    border:6px solid white;
+    font-family: "Quick_bold";
+}
+.b .but{
+    padding:20px 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    position:absolute;
+    font-size:1.6em;
+    left:0;
+    top:35%;
+    color:white;
+    background:rgba(255, 249, 249, 0.4);
+    border:4px solid white;
+    font-family: "Quick_bold";
+}
+
+.butcat{
+    padding:5px 0 5px 0 ;
+    text-align: center;
+    text-transform: uppercase;
+    position:absolute;
+
+    left:6%;
+    top:40%;
+    color:white;
+    background:rgb(57, 57, 57);
+    border:4px solid white;
+    font-family: "Quick_bold";
+}
+
+.but:hover{
+    border:6px solid rgba(255, 255, 255, 0.0);
+    background:rgba(255, 255, 255, 0.77);
+    color:rgba(0, 0, 0, 0.77);
+}
+.a .but:hover{
+    border:6px solid rgba(255, 255, 255, 0.0);
+    background:rgba(255, 255, 255, 0.50);
+}
+.titre{
+    margin-top:30px;
+    margin-bottom:20px;
+
+    font-weight: bold;
+    color:rgb(26, 26, 26);
+    font-family: "league";
+}
+.plus{
+    text-transform: uppercase;
+    word-spacing: 0.3em;
+    color:black;
+
+}
+/*       MOBILE     */
+@media screen and (max-width: 767px) { 
+.boxarticle{
+    height:120px!important;
+}
+    .b img{
+        height:100px;
+    }
+    .allcat{
+        padding:0;
+    }
+    .allcat:after{
+        margin-top: 110%;
+    }
+    .a .but{
+
+        border:3px solid white;
+        padding:10px 0 10px 0;
+        font-size:1em;
+        top:64%;
+    }
+
+    .c .but,.ca .but,.d .but{
+        border:3px solid white;
+        padding:10px 0 10px 0;
+        font-size:0.8em;
+        top:29%;
+    }
+
+    .c .but:hover,.ca .but:hover,.b .but:hover{
+        border:4px solid rgba(255, 255, 255, 0.0);
+    }
+    .b .but{
+        border:3px solid white;
+        padding:10px 0 10px 0;
+        font-size:1em;
+        top:32%;
+    }
+    .d .but{
+        font-size:1em;
+
+    }
+    .butcatl{
+        top:50%!important;
+        font-size:0.44em!important;
+    }
+    .plus{
+        padding:0;
+        font-size:0.5em;
+    }
+    .but{
+        border-left:none!important;
+        border-right:none!important;
+    }
+
+    .a,.b,.ca,.d,.c{
+        margin:0px;
+        padding:1.5px;
+    }
+    .boxarticle{
+        padding:0;margin:0;
+    }
+    .article{
+        padding:5px!important;
+    }
+    .article .titre{
+        margin:5px;
+        font-size:0.8em;
+    }
+ 
+}
+/*       TABLETTE   */
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+ .a,.b,.ca,.d,.c{
+        margin:0px;
+        padding:4px;
+    }
+    .b img{
+        height:230px;
+    }
+    .allcat:after{
+        margin-top: 110%;
+    }
+    .a .but{
+        font-size:2em;
+        top:70%;
+    }
+
+    .c .but,.ca .but,.d .but{
+        padding:20px 0 20px 0;
+        font-size:1.2em;
+        top:33%;
+    }
+    .c .but:hover,.ca .but:hover,.b .but:hover{
+        border:4px solid rgba(255, 255, 255, 0.0);
+    }
+    .d .but{
+        font-size:1.4em;
+
+    }
+    .butcatl{
+        font-size:0.6em;
+    }
+    .plus{
+        padding:0;
+        font-size:0.8em;
+    }
+
+}
+/*         COMPUTER STD      */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/*        COMPUTER LRG       */
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,65 @@
+.title{
+    text-align: center;
+    font-family: "poppins";
+    margin-top:20px;
+}
+.title h1{
+    margin-bottom:20px;
+    font-family: "gloss";
+}
+.title h1:after{
+     border-bottom: 1px solid grey;
+    content: '';
+    display: block;
+    margin-left: 38%;
+    margin-top: 0;
+    width: 25%;
+}
+form{
+   
+    font-family: "Quick_bold";
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+input{ padding:5px;text-transform: uppercase;border:none;}
+textarea{padding:10px; text-transform: capitalize;border:none;}
+.send{
+    padding:10px;
+    background:rgba(13, 13, 13, 0.85);
+    color:white;
+    border:none;
+}
+.shadow{
+
+    background-image: radial-gradient(closest-side ellipse at center, rgba(96, 94, 94, 0.22), rgba(128, 126, 126, 0.08));
+    box-shadow: 1px 1px 24px rgba(77, 75, 75, 0.13);
+
+}
+.message{
+    height:100px;
+}
+.box{
+    padding:10px;
+}
+
+/*       MOBILE     */
+@media screen (max-width: 768px) { 
+
+}
+/*       TABLETTE   */
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+      .fdtm hr{
+       padding:0;
+    }
+    .fdtm h3{
+        font-size:1.2em;
+    }
+}
+/*         COMPUTER STD      */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}

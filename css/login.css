@@ -1,0 +1,374 @@
+html, body{
+    min-height: 100%;
+}
+body{
+    position: relative;
+    font-family: "Lato", sans-serif;
+    color: #757575;
+}
+em {
+    color: #00AE9C;
+    font-style: normal;
+    font-weight: bold;
+    display: inline-block;
+}
+.container {
+    max-width: 70%;
+}
+.alertbox {
+    margin-top: 0;
+    padding: 0;
+}
+.loginbox {
+    text-align: right;
+}
+.loginbox .logosection h1 {
+    font-size: 24px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.loginbox .logosection img {
+    margin-bottom: -10px;
+    margin-top: -100px;
+    margin-right: -5px;
+    max-width: 425px;
+}
+.loginbox .loginform {
+
+} 
+.loginbox .loginform p.morelinks a {
+    margin: 0;
+    color: #5BC0EA;
+}
+.loginbox .loginform form .popover {
+
+}
+.loginbox form .popover .popover-title {
+    font-size: 17px;
+    padding-top: 14px;
+    padding-bottom: 9px;
+    color: #00AE9C;
+    background: #ffffff;
+    border-radius: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 17px;
+    margin-right: 17px;
+    border-bottom: 2px solid #dcdcdc;
+}
+.loginbox .loginform form .popover .popover-title img {
+    max-height: 16px;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+
+/* display secondefenetre */
+
+.loginbox .rightsection.passwordlost {
+    display: none;
+}.loginbox .rightsection.inscription {
+    display: none;
+}
+.input-details {
+    margin-top:5px;
+}
+
+.loginbox {
+    margin-bottom: 40px;
+}
+
+.btn-success {
+    box-shadow: none;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #5BC0EA;
+    border: 2px solid #5BC0EA;
+    color: #ffffff;
+}
+.btn-success:hover, .btn:focus {
+    box-shadow: none;
+    transition: all 0.3s;
+    background: #5BC0EA;
+}
+
+
+/* New styles */
+.form-control, .form-control:first-child, .form-control:last-child {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 42px;
+    padding: 7px 12px;
+    color: #757575;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+input::-webkit-input-placeholder {
+   color: #cccccc !important;
+}
+textarea::-webkit-input-placeholder {
+   color: #cccccc !important;
+}
+
+input::-moz-placeholder { /* Firefox 18- */
+   color: #cccccc !important;  
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: #cccccc !important;  
+}
+
+input::-ms-input-placeholder {  
+   color: #cccccc !important;  
+}
+textarea::-ms-input-placeholder {  
+   color: #cccccc !important;  
+}
+
+.loginbox .loginform p.morelinks span:first-child {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 22px;
+}
+
+.loginbox .logosection h1 span {
+    margin-right: 25px;
+    display: block;
+}
+
+
+.loginbox .passwordlost form > p:first-child, .loginbox .passwordreset form > p:first-child, .loginbox .passwordreset form > p.input-details, .loginbox .passwordreset form > p:first-child, .loginbox .rightsection .rightsectionmessage > p {
+    text-align: left;
+}
+
+.loginbox .passwordreset form > p:first-child, .loginbox .rightsection .rightsectionmessage > p:first-child {
+    color: #000;
+}
+
+.loginbox .passwordreset form > p:first-child, .loginbox .rightsection .rightsectionmessage > p {
+    margin-bottom: 5px;
+}
+
+.loginbox .rightsection .rightsectionmessage {
+    margin: 10px;
+}
+
+.loginbox .passwordreset form > p.input-details {
+    margin-bottom: 15px;
+}
+
+.loginbox .passwordlost form > p:first-child {
+    margin-bottom: 16px;
+}
+
+
+.loginbox .passwordlost p.morelinks {
+    margin-top: 30px;
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.loginbox .passwordlost p.morelinks a {
+    color: #757575;
+}
+
+.loginbox .passwordlost p.morelinks i {
+    vertical-align: bottom;
+    position: relative;
+    top: 2px;
+    color: #757575;
+}
+
+
+.loginbox .passwordlost p.morelinks:hover a, .loginbox .passwordlost p.morelinks:hover i {
+    text-decoration: none;
+    color: #EC4363;
+    transition: all 0.3s;
+}
+.loginbox .inscription p.morelinks i {
+    vertical-align: bottom;
+    position: relative;
+    top: 2px;
+    color: #757575;
+}
+
+
+.loginbox .inscription p.morelinks:hover a, .loginbox .passwordlost p.morelinks:hover i {
+    text-decoration: none;
+    color: #EC4363;
+    transition: all 0.3s;
+}
+
+.loginform .form-group:first-of-type, .passwordreset .form-group:first-of-type {
+    margin-bottom: 10px;
+}
+
+.alert button.close i {
+    top: 1px;
+    color: #757575;
+    right: 30px;
+    color: #fff;
+    text-shadow: none;
+}
+.alert .close i {
+    position: static;
+}
+
+.btn:active:focus, .btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.loginbox .rightsection .rightsectionn .rightsectionmessage .form-group {
+    margin-top: 20px;
+}
+
+.passwordreset #show_password i {
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}
+
+
+@media (min-width: 769px) {
+    .loginbox {
+        margin-top:20%;
+        vertical-align:middle;
+    }
+    .loginbox .logosection {
+        text-align: right;
+        padding-right: 28px;
+    }
+    .loginbox .rightsection {
+        border-left: 2px solid #dcdcdc;
+        margin-top: 20px;
+        padding-top: 12px;
+    } 
+  .rightsectionn {
+        margin-top: 20px;
+        padding-top: 12px;
+    } 
+    .loginbox .rightsection .rightsectionn form {
+        width: 78%;
+        margin: 10px;
+    } 
+    .rightsectionmessage {
+        width: 80%;
+    }
+
+  
+}
+
+.g-recaptcha {
+    margin: 0px auto;
+    width: 200px;
+}
+
+@media (min-width:768px)
+{
+    .background-image-fixed.cover-image {
+        height: 100% ;
+        
+    }
+}
+@media (max-width:768px) {
+    .col-md-6.rightsection.loginform {
+        margin-left: 8%
+    }
+}
+@media (max-width:767px) {
+    .col-md-6.rightsection.loginform {
+        margin-left: -27%;
+        width: 155%;
+    }
+    
+}
+@media (max-width: 992px) {
+    .loginbox .rightsection form {
+        width: 89%;
+    }
+}
+
+@media (max-width: 767px) 
+{
+    .logosection {
+        text-align: center;
+    }
+
+    .loginbox {
+        margin-bottom: 30px;
+    }
+
+    .loginbox .logosection h1 {
+        display: inline-block;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    .loginbox .rightsection form {
+        width: 100%;
+        height: 100%
+        margin: 10px auto 0;
+    }
+
+    .loginbox .form-group, .passwordreset .form-group:first-of-type {
+        margin-bottom: 20px;
+    }
+
+    p.morelinks {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .btn-success {
+        padding: 8px 12px;
+        border-radius: 5px;
+    }
+
+    .loginbox .loginform p.morelinks a {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .loginbox .loginform p.morelinks span:first-of-type a {
+        border: 2px solid #EC4363;
+        background-color: #EC4363;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 8px 12px;
+        margin-top: 15px;
+        color: #ffffff;        
+        display: inline-block;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+
+    .loginbox .loginform p.morelinks span:first-of-type a:hover, .loginbox .loginform p.morelinks span:first-of-type a:focus, .loginbox .loginform p.morelinks span:first-of-type a:active {
+        border: 2px solid #D43C59;
+        background-color: #D43C59;
+    }
+
+
+    .loginbox .passwordlost p.morelinks {
+        margin-top: 20px;
+    }
+
+    .loginbox .logosection h1 span.psw_reset {
+        margin-right: 0;
+        text-align: center;
+    }
+}
