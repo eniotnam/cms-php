@@ -1,0 +1,63 @@
+.title{
+    text-align: center;
+    font-family: "poppins";
+    margin-top:20px;
+}
+.title h1{
+    display: inline-block;
+    margin-bottom:20px;
+    font-family: "gloss";
+}
+h3{
+    display: inline-block;
+    margin-bottom:20px; 
+}
+.title h1:after{
+     border-bottom: 1px solid grey;
+    content: '';
+    display: block;
+    margin-left: 20%;
+    margin-top: 0;
+    width: 60%;
+}
+ h3 span{
+     border-bottom: 1px solid grey;
+   
+}
+
+
+/*       MOBILE     */
+@media screen and (max-width: 768px) { 
+
+    .profil{
+        margin-top:20px;
+    }
+    .fdtm hr{
+       padding:0;
+    }
+    .fdtm h3{
+        font-size:1.2em;
+    }
+    .profj h1,.profca h1{
+        font-size:1.4em;
+    }
+  
+}
+/*       TABLETTE   */
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+      .fdtm hr{
+       padding:0;
+    }
+    .fdtm h3{
+        font-size:1.2em;
+    }
+}
+/*         COMPUTER STD      */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/*        COMPUTER LRG       */
+@media (min-width: 1200px) {
+
+}

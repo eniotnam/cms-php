@@ -1,0 +1,19 @@
+@media screen (max-width: @screen-xs-max) { ... }
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+    .but{
+        padding:10px 0 10px 0;
+        font-size:0.8em;
+        top:40%;
+    }
+    .hrf{
+        height:60px;
+    }
+    .fdtm hr{
+       padding:0;
+    }
+    .fdtm h3{
+        font-size:1.2em;
+    }
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }

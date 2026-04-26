@@ -1,0 +1,40 @@
+/*       MOBILE     */
+@media screen (max-width: 768px) { 
+
+}
+
+/*       TABLETTE   */
+@media screen and (min-width: 768px) and (max-width: 992px) {  
+    .header-spacer{
+        height:125px;
+    }
+    #navigation, nav .list,.list .img{
+        padding:0;
+      
+    }
+   
+    #first{
+        margin-left:0 !important;
+        padding-left:0;
+    }
+    
+    .footl,.footlist,.footlist li{
+        padding:0;
+    }
+    .footlist li{
+        letter-spacing:0.1em ;
+    }
+    .caselogo{
+        padding:0;
+    }
+}
+
+/*         COMPUTER STD      */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/*        COMPUTER LRG       */
+@media (min-width: 1200px) {
+
+}
